@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+</style>
+</head>
+<style>
+	.image-manage .img-design{
+		widht:100%;
+		height:100%;
+	}
+</style>
+<body>
+
+		<section>
+			<div class="container-fluid">
+				<div class="image-manage">
+					<img class="img-design" src="img/we1.jpeg">
+				</div>
+			</div>
+		</section>
+		<h1>${date}</h1>
+		<h1>${weatherData}</h1>
+		
+</body>
+</html>

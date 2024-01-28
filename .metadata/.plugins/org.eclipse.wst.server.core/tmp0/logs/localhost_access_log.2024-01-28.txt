@@ -1,0 +1,15 @@
+127.0.0.1 - - [28/Jan/2024:13:49:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:49:42 +0530] "GET /weather-app/ HTTP/1.1" 200 1880
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:49:42 +0530] "GET /weather-app/img/we3.jpg HTTP/1.1" 200 140678
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:49:47 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:49:59 +0530] "POST /weather-app/FormDataController HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:49:59 +0530] "GET /weather-app/weather.jsp?message=Hi%20Prashant%20Kumar%20Tejash HTTP/1.1" 200 3662
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:49:59 +0530] "GET /weather-app/img/hoze.jpeg HTTP/1.1" 200 5275
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:50:14 +0530] "POST /weather-app/FormDataController HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:50:14 +0530] "GET /weather-app/weather.jsp?message=Hi%20Prashant%20Kumar%20Tejash HTTP/1.1" 200 3666
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:50:14 +0530] "GET /weather-app/img/cloud.jpeg HTTP/1.1" 200 6415
+127.0.0.1 - - [28/Jan/2024:13:53:14 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:53:16 +0530] "GET /hospital/ HTTP/1.1" 200 572
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:53:16 +0530] "GET /assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 812
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:53:16 +0530] "GET /assets/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [28/Jan/2024:13:53:16 +0530] "GET /favicon.ico HTTP/1.1" 404 762

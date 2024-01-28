@@ -1,0 +1,11 @@
+
+
+public class Snippet {
+	try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management");
+			PreparedStatement pstmt = connection.prepareStatement();
+		}catch(Exception e) {
+			
+		}
+}

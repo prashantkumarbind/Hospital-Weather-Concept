@@ -1,0 +1,74 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<style>
+body {
+	background: rgb(235, 150, 29);
+	background: linear-gradient(90deg, rgba(235, 150, 29, 1) 6%,
+		rgba(253, 29, 29, 1) 49%, rgba(252, 176, 69, 1) 100%);
+}
+
+.container-top {
+	margin-top: 100px;
+}
+
+.image-manage .controll-image .cloud-image{
+	 width:200px;
+	 height:300px;
+}
+</style>
+<body>
+
+	<section>
+		<div class="container container-top">
+			<div class="row justify-content-center">
+				<div class="col-8 text-center">
+					<div class="image-manage">
+							<%-- <%
+								String weatherCondition = (String)session.getAttribute("weatherCondition");
+								switch(weatherCondition){
+								
+									case "Cloud":out.println("<img src='img/cloud.jpeg'>"+"</img>"+weatherCondition);
+											break;
+									case "Clear":out.println("<img src='img/clear.jpeg'>"+"</img>"+weatherCondition);
+											break;
+									case "Rain":out.println("<img src='img/raine.jpeg'>"+"</img>"+weatherCondition);
+											break;
+									case "Mist":out.println("<img src='img/mist.jpeg'>"+"</img>"+weatherCondition);
+											break;
+									case "Snow":out.println("<img src='img/snow.jpeg'>"+"</img>"+weatherCondition);
+											break;
+									case "Haze":out.println("<img src='img/hoze.jpeg'>"+"</img>"+weatherCondition);
+											break;
+									default:out.println("<img src='img/clear.jpeg'>"+"</img>"+weatherCondition);
+											break;
+								}
+							%> --%>
+
+							<%
+								String weatherCondition = (String)session.getAttribute("weatherCondition");
+								if(weatherCondition.equalsIgnoreCase("Cloud"))
+								{
+							%>
+									<div class="controll-image">
+										<img src="img/cloud.jped" class="img-cloud">
+									</div>
+							<%
+									
+								}
+							%>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>

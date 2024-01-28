@@ -1,0 +1,53 @@
+package manage;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class FormDataController
+ */
+@WebServlet("/FormDataController")
+public class FormDataController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public FormDataController() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		//get data
+		String city_name = request.getParameter("city_name");
+		System.out.println("Your input value is the ::"+city_name);
+		PrintWriter out = response.getWriter();
+		out.println("<h1>"+city_name+"</h1>");
+		if(city_name==null)
+			System.out.println("It is the null value");
+		else
+			System.out.println("It is the not null value");
+		
+		
+		
+	}
+
+}

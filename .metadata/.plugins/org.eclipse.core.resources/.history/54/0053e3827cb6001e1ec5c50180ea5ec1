@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+>
+<title>weather app</title>
+</head>
+<body>
+		<h1>Hi JSP</h1>
+		<a href="index.html">click here</a>
+		<section class="form-top-header header-top">
+			<div class="container-fluid">
+				<div class="row-lg justify-content-center">
+					<div class="col-6 form controller">
+						<form action="FormDataController" method="Post">
+							 <div class="form-control">
+							 	<input type="text" name="city_name" class="">
+							 </div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+ <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+ -->
+</body>
+</html>
